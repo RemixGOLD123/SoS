@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #8c8c8c;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+/* Project */
+
+.project {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.project__title {
+    text-align: center;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #555555;
+    font-weight: 700;
+
+    padding-bottom: 20px;
+}
+
+.project__subtitle {
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.project__block__btn {
+    width: 100%;
+    max-width: 636px;
+    margin: 0 auto;
+}
+
+.project__btn {
+    margin: 40px 0; 
+}
+
+.project__container-1 {
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* position: relative; */
+
+    padding-left: 30px;
+
+    margin-bottom: 30px;
+}
+
+.filterDiv {
+    width: 33.33333%;
+    /* padding: 0 30px; */
+    display: none;
+}
+
+.filterDiv-1 {
+    padding-bottom: 30px;
+}
+
+.project__photo {
+    position: absolute;
+
+    flex-wrap: wrap;
+  
+  width: 19.5%;
+  height: 237px;
+}
+
+.triangle-up {
+    position: relative;
+
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+
+    transition: .2s linear;
+
+    padding-top: 227px;
+    margin-left: 19px;
+}
+
+.filterDiv:hover .triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+    border-bottom: 10px solid #362f2d;
+}
+
+.project__txt {
+    height: 100px;
+    background-color: #fbfaf8;
+
+    width: 92.7%;
+}
+
+.filterDiv:hover .project__txt {
+    background: #362f2d;
+
+    transition: .2s linear;
+}
+
+.project__txt__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    color: #c7b299;
+
+    padding-top: 25px;
+    padding-left: 27px;
+  
+    margin: 0;
+}
+
+.filterDiv:hover .project__txt__title {
+    color: #fff;
+}
+
+.project__txt__subtitle {
+    padding-left: 27px;
+    padding-top: 7px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+
+    color: #d1d1d1;
+}
+
+.filterDiv:hover .project__txt__subtitle {
+    color: #c7b299;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}                                             
+
+/* Style the buttons */
+.project__btn {
+    border: 1px solid #ebebeb;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    /* background-color: #f1f1f1; */
+    color: #8c8c8c;
+    background-color: #fff;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+/* Add a light grey background on mouse-over */
+.project__btn:hover {
+    background-color: #998675;
+    color: white;
+}
+
+/* Add a dark background to the active button */
+.project__btn.active {
+    background-color: #998675;
+    color: white;
+}

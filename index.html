@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="project">
+        <div class="container">
+            <h3 class="project__title">Our Latest Projects.</h3>
+            <p class="project__subtitle">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam <br> processus dynamicus, qui sequitur mutationem consuetudium.</p>
+    
+    <!-- btn -->
+             <div class="project__block__btn" id="myBtnContainer">
+                <button class="project__btn active" onclick="filter('all')">All</button>
+                <button class="project__btn" onclick="filter('Graphic')">Graphic Design</button>
+                <button class="project__btn" onclick="filter('Nature')">Nature</button>
+                <button class="project__btn" onclick="filter('Holiday')">Holiday</button>
+                <button class="project__btn" onclick="filter('Photography')">Photography</button>
+            </div><!-- btn -->
+          
+          
+    <div class="project__container-1">
+                <div class="filterDiv Photography Mobile Nature filterDiv-1">
+                    <div class="project__item">
+                    <img class="project__photo" src="https://i.pcmag.com/imagery/reviews/04R1s9xuQfmVH4MHFeuaghc-18..v_1570065414.jpg" alt="">
+                        <div class="triangle-up"></div>
+                        <div class="project__txt">
+                            <p class="project__txt__title">Claritas Etiam Processus</p>
+                            <p class="project__txt__subtitle">Photography, Nature</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="filterDiv Graphic filterDiv-2">
+                    <img class="project__photo" src="https://i.pcmag.com/imagery/reviews/04R1s9xuQfmVH4MHFeuaghc-18..v_1570065414.jpg" alt="">
+                    <div class="triangle-up"></div>
+                    <div class="project__txt">
+                        <p class="project__txt__title">Quam Nutamus Farum</p>
+                        <p class="project__txt__subtitle">Graphic Design, Mock-Up</p>
+                    </div>
+                </div>
+                <div class="filterDiv Photography Holiday filterDiv-3">
+                    <img class="project__photo" src="https://i.pcmag.com/imagery/reviews/04R1s9xuQfmVH4MHFeuaghc-18..v_1570065414.jpg" alt="">
+                    <div class="triangle-up"></div>
+                    <div class="project__txt">
+                        <p class="project__txt__title">Usus Legentis Videntur</p>
+                        <p class="project__txt__subtitle">Photography, Holiday</p>
+                    </div>
+                </div>
+                <div class="filterDiv Photography Nature">
+                       <img class="project__photo" src="https://i.pcmag.com/imagery/reviews/04R1s9xuQfmVH4MHFeuaghc-18..v_1570065414.jpg" alt="">        
+                    <div class="triangle-up"></div>
+                    <div class="project__txt">
+                        <p class="project__txt__title">Claritas Etiam Processus</p>
+                        <p class="project__txt__subtitle">Photography, Nature</p>
+                    </div>
+                </div>
+                <div class="filterDiv Graphic">
+                    <img class="project__photo" src="https://i.pcmag.com/imagery/reviews/04R1s9xuQfmVH4MHFeuaghc-18..v_1570065414.jpg" alt="">
+                    <div class="triangle-up"></div>
+                    <div class="project__txt">
+                        <p class="project__txt__title">Quam Nutamus Farum</p>
+                        <p class="project__txt__subtitle">Graphic Design, Mock-Up</p>
+                    </div>
+                </div>
+                <div class="filterDiv Photography Holiday">
+                    <img class="project__photo" src="https://i.pcmag.com/imagery/reviews/04R1s9xuQfmVH4MHFeuaghc-18..v_1570065414.jpg" alt="">
+                    <div class="triangle-up"></div>
+                    <div class="project__txt">
+                        <p class="project__txt__title">Usus Legentis Videntur</p>
+                        <p class="project__txt__subtitle">Photography, Holiday</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
